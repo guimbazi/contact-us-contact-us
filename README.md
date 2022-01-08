@@ -1,5 +1,4 @@
 # contact-us-contact-us
-<style>body {text-align: justify}</style>
 Projeto foi proposto como um desafio da FUNDAÇÃO MUDES
 em um processo seletivo para o qual me candidatei.
 Confesso que não fiquei satisfeito com o Front-end porém
