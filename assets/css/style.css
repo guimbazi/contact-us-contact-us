@@ -1,6 +1,6 @@
 /* BACKGROUND DA PÁGINA*/
 body {
-    background-image: url('../_img/bg.jpeg');
+    background-image: url('../img/bg.jpeg');
     background-repeat: repeat-x;
     margin: 0;
 }
