@@ -1,0 +1,12 @@
+Está página foi proposta através de um desafio de um dos processos seletivos 
+que me candidatei pela FUNDAÇÃO MUDES. Onde me foi proposto estar desenvolvendo
+uma página de contato utilizando HTML, CSS, e JavaScript.
+Confesso que não foi o meu melhor Front-end desenvolvido e que estou bem incomodado com ele. Mas como o meu tempo
+era bem limitado acredito que possa ser levado em consideração.
+Não entendi muito bem algumas partes da proposta, mas espero ter atendido corretamente a solicitação. Pois não sei
+Se era para está pegando os dados do formulário e exibindo na mesma tela, ou em outra página. Assim como também não
+sabia se poderia ser feito uso de algum framework como BOOTSTRAP por exemplo.
+
+Por não saber se deveria exibir os dados do formulário deixei uma div comentada na "index.html", cujo é id="preview".
+Caso seja necessário a exibição dos dados enviados pelo formulário basta desfazer o comentário da div, e na ultima linha
+do arquivo "script.js"

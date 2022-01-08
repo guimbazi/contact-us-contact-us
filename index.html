@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./assets/_css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- CABEÇALHO DA PAGINA -->
+    <header id="container-tittle">
+        <h1>CONTATO</h1>
+    </header>
+    <!-- FIM CABEÇALHO DA PAGINA -->
+
+    <!-- CORPO DA PÁGINA -->
+    <section id="container">
+        <!-- CARDS DE OPÇÕES PARA CONTATO -->
+        <div id="container-cards">
+            <!-- TELEFONES PARA CONTATO -->
+            <div class="row cards">
+                <img src="./assets/_img/phone-icon.png" alt="phone-icon" class="icon" height="40px">
+                <ul id="phone-list">
+                    <li>Rio de Janeiro - (21)3271-9073</li>
+                    <li>São Paulo - (11)2453-7011</li>
+                    <li>SAC - 0800 5541-0390</li>
+                </ul>
+            </div>
+            <!-- FIM TELEFONES PARA CONTATO -->
+
+            <!-- SESSÃO DE CHAT ONLINE -->
+            <div class="row cards">
+                <img src="./assets/_img/chat-icon.png" alt="chat-icon" class="icon" height="40px">
+                <h3 class="tittle"><a href="#">CHAT</a></h3>
+            </div>
+            <!-- FIM SESSÃO DE CHAT ONLIN -->
+
+            <!-- REDES SOCIAIS -->
+            <div class="row cards">
+                <h3 class="tittle sociais">REDES SOCIAIS</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/_img/facebook.png" alt="icon-facebook" height="40px"></a>
+                    <a href="#"><img src="./assets/_img/instagram.png" alt="icon-instagram" height="40px"></a>
+                    <a href="#"><img src="./assets/_img/linkedin.png" alt="icon-linkedin" height="40px"></a>
+                    <a href="#"><img src="./assets/_img/twitter.png" alt="icon-twitter" height="40px"></a>
+                </div>
+            </div>
+            <!-- FIM REDES SOCIAIS -->
+
+            <!-- LOCALIZAÇÃO GOOGLE MAPS -->
+            <div class="row cards">
+                <h3 class="tittle sociais">LOCALIZAÇÃO</h3>
+                <div class="social-icons">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356839543162!2d-43.18189958503446!3d-22.90020548501515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5bfc61a24b%3A0xb2ea76daa3190c61!2sR.%20Te%C3%B3filo%20Otoni%2C%2082%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020090-080!5e0!3m2!1sen!2sbr!4v1641593980351!5m2!1sen!2sbr" width="510" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- FIMLOCALIZAÇÃO GOOGLE MAPS -->
+        <!-- FIM CARDS DE OPÇÕES PARA CONTATO -->
+
+        <!-- INÍCIO DO FORMULÁRIO -->
+        <div id="container-form">
+            <!-- CABEÇALHO DO FORMULARIO -->
+            <header id="form-tittle">
+                <h2 class="tittle">FALE CONOSCO</h2>
+                <p>Estamos dispostos a ouvir suas dúvidas, criticas e sujestões
+                    entre em contato e deixe-nos saber mais sobre sua real necessidade.
+                </p>
+                <span>Os campos com "*" são obrigatórios.</span>
+            </header>
+            <!-- FIM CABEÇALHO DO FORMULARIO -->
+
+            <!-- INÍCIO DO FORMULÁRIO -->
+            <form class="forms" action="" id="formulario" name="formulario" method="POST">
+                <!-- CAMPO NOME -->
+                <input type="text" id="nome" placeholder="Nome *" name="nome">
+                <!-- CAMPO EMAIL -->
+                <input type="email" id="email" placeholder="E-mail *" name="email">
+                <!-- CAMPO CONTATO -->
+                <input type="number" id="telefone" placeholder="(DDD) + Número" name="telefone">
+                <!-- CAMPO ASSUNTO -->
+                <input type="text" id="assunto" placeholder="Assunto *" name="assunto">
+                <!-- CAMPO MENSAGEM -->
+                <textarea id="mensagem" placeholder="Mensagem *" name="mensagem" style="height:122px;"></textarea>
+                <!-- CAMPO ENVIO -->
+                <input type="submit" id="enviar" value="Enviar">
+            </form>
+        </div>
+        <!-- FIM DO FORMULÁRIO -->
+
+        <!-- ATIVE A PREVIEW CASO DESEJE VER O 
+        E-MAIL QUE FOI ENVIADO APARECENDO NA PARTE
+        FINAL DA PÁGINA -->
+
+        <!-- INICIO DO PREVIEW
+        <div id="preview"></div -->
+
+    </section>
+    <!-- FIM CORPO DA PÁGINA -->
+
+    <!-- ÁREA DO RODAPÉ -->
+    <footer></footer>
+    <!-- FIM ÁREA DO RODAPÉ -->
+
+    <!--SCRIPT DO JS-->
+   <script src="./assets/_js/script.js" defer></script>
+    <!--FIM DO SCRIPT JS-->
+</body>
+
+</html>

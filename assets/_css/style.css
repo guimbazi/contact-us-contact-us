@@ -1,0 +1,200 @@
+/* BACKGROUND DA PÁGINA*/
+body {
+    background-image: url('../_img/bg.jpeg');
+    background-repeat: repeat-x;
+    margin: 0;
+}
+/* TITULOS */
+h3 {
+    color: #010743;
+    display: block;
+}
+
+/* TITULO PRINCIPAL DA PÁGINA */
+#container-tittle {
+    color: #f0f8ff;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px 0 20px 0;
+}
+
+/* CORPO DA PÁGINA */
+#container {
+    padding: 16px;
+    background-color: #f0f8ff;
+    margin: auto;
+    max-width: 80%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+/* LADO ESQUERDO DO CONTAINER*/
+#container-cards {
+    display: none;
+    display: inline-block;
+    width: 50%;
+    max-width: 50%;
+    margin-top:25px;
+    margin-right: 10px;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari and Chrome */
+    -o-animation: fadein 6s; /* Opera */
+}
+
+/* ESTILO DOS CARDS */
+.cards {
+    height: 97px;
+    margin: 5px;
+    display: flex;
+    padding: 10px 0 10px 10px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #f0f8ff 0%, #e8f2fd 74%);
+    border-radius: 5px;
+}
+
+/* LISTA DOS TELEFONES */
+#phone-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* ICONES */
+.icon {
+    margin: 21px 10px 0 10px;
+}
+
+/* TITULO DAS REDES SOCIAIS */
+.sociais {
+    display: block;
+    position: absolute;
+}
+
+/* ICONE DAS REDES SOCIAIS */
+.social-icons {
+    margin-top: 55px;
+}
+
+/* LADO DIREITO DA COPOR DA PAGINA*/
+#container-form {
+    width: 35%;
+    max-width: 35%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    animation: fadein 9s;
+    -moz-animation: fadein 9s; /* Firefox */
+    -webkit-animation: fadein 9s; /* Safari and Chrome */
+    -o-animation: fadein 9s; /* Opera */
+}
+
+/* TITULO DO LADO DO FORMULÁRIO */
+#form-tittle {
+    max-width: 100%;
+}
+
+/* FONTE DOS TITULOS SECUNDARIOS*/
+.tittle a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #010743;
+}
+
+/* FORMATAÇÃO DO SPAN DO FORM*/
+span {
+    margin: 0 0 40px 0;
+    font-size: 12px;
+}
+
+/* AREA DE EXPANSÃO PERMITIDA AO FORM */
+.forms {
+    max-width: 95%;
+    margin-right: 0;
+}
+
+/* ESTILO DOS INPUTS DO FORMULÁRIO */
+.forms input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+    border-bottom: 1px solid #010743;
+}
+
+/* ESTILO DO BOTÃO DE ENVIAR */
+#enviar {
+    border-bottom: none;
+    width: 35%;
+    background-color: #5E2CA5;
+    padding: 10px 0 10px 0;
+    color: #F0F8FF;
+    height: 40px;
+}
+
+#enviar:hover{
+    background-color: #432074;
+    color: #e5ecf1;
+    transition: 1s;
+}
+
+/* ESTILO DA ÁREA DO TEXTO DO FORMULÁRIO */
+textarea {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+    border-bottom: 1px solid #010743;
+}
+
+/* CONFIGURAÇÃO DO PREVIEW */
+#preview {
+    width: 80%;
+    font-size: 16px;
+    margin: 15px 0 0 15px;
+}
+
+/* RODAPÉ */
+footer {
+    height: 122px;
+    background-color: rgb(44, 44, 46);
+}
+
+/* FUNÇÕES PARA ANIMAÇÃO */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
